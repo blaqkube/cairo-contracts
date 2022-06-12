@@ -4,14 +4,11 @@ from starkware.cairo.common.alloc import alloc
 from starkware.cairo.common.cairo_builtins import HashBuiltin
 from starkware.cairo.common.uint256 import Uint256
 
-
 from openzeppelin.token.erc721.library import _exists
 from openzeppelin.utils.shortstring import uint256_to_ss
 from openzeppelin.utils.array import concat_arr
 
-
-from openzeppelin.utils.constants import TRUE, FALSE
-
+from starkware.cairo.common.bool import TRUE, FALSE
 
 #
 # Storage
